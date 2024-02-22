@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body{
+  background: #B2DFDB;
+  overflow-x: hidden;
+ }
+
+.first{
+  height: 100vh;
+  width: 100vw;
+}
+
+.first .header{
+  height: 10vh;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  border-bottom: black solid 1px;
+}
+
+.first .header h3{
+  font-size: 1.5rem;
+  color: #00695C;
+}
+
+.first .header .button .btn{
+  font-size: 1rem !important;
+  border: 1px solid #B2DFDB;
+  outline: none;
+  padding: 0.5rem 3rem;
+  border-radius: 16px;
+  font-weight: 600;
+  color: red;
+  cursor: pointer;
+}
+
+
+.first main .main {
+  padding: 10px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.first main .main .right{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.first main .main .right .back{
+  background-color: aliceblue;
+  height: 65vh;
+  border: solid 1px black;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  padding: 30px 50px;
+  gap: 10%;
+}
+
+.first main .main .right .back input{
+  height: 3vw;
+  padding: 0.2rem 30px;
+  border: none;
+  border-bottom: solid 1px gray;
+  outline: none;
+  font-weight: 700;
+  border-radius: 16px;
+  background-color: transparent;
+}
+
+
+.first main .main .right .back textarea{
+  /* height: 3vw; */
+  padding: 10px 30px;
+  border: none;
+  border-bottom: solid 1px gray;
+  outline: none;
+  font-weight: 700;
+  border-radius: 16px;
+  background-color: transparent;
+}
+
+.first main .main .right .back button{
+  padding: 0.7rem 20px;
+  background: #F4511E;
+  border: none;
+  font-weight: bold;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.notelist{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+.note{
+  background: white;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid darkgray;
+  border-radius: 12px;
+}
+.note button{
+  background: #00695C;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  margin: 0.8rem 0;
+  border-radius: 12px;
+}
+
+.divf{
+  display: flex; 
+  justify-content: space-between; 
+  gap: 6%;
+  align-items: center;
+}
+
+.timed{
+  display: flex;
+  flex-direction: column;
+}
